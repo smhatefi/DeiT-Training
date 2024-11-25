@@ -41,5 +41,5 @@ python -W ignore main.py --model MODEL --input-size InputSize --batch-size Batch
 
 ## Evaluating
 ```
-python -W ignore main.py --model MODEL --batch-size BatchSize --resume ./outputs/best_checkpoint.pth --input-size 224 --data-set CIFAR --data-path . --eval
+python -W ignore main.py --model MODEL --input-size InputSize --batch-size BatchSize --resume ./outputs/best_checkpoint.pth --data-set CIFAR --data-path ../Datasets/ --eval
 ```
