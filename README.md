@@ -29,7 +29,7 @@ python -W ignore main.py --model MODEL --input-size InputSize --batch-size Batch
 python -W ignore main.py --model MODEL --input-size InputSize --batch-size BatchSize --output ./outputs --resume ./outputs/checkpoint.pth --data-set CIFAR --data-path ../Datasets/
 ```
 
-## Extra Augment:
+## Extra Augment
 ```
 python -W ignore main.py --model MODEL --input-size InputSize --batch-size BatchSize --ThreeAugment --src --output ./outputs --data-set CIFAR --data-path ../Datasets/
 ```
